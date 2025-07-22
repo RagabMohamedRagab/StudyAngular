@@ -1,0 +1,13 @@
+<div class="row" id="form">
+    <div class="col-2 mb-4">
+        <h5>{{obj.title}}</h5>
+    </div>
+    <div class="col-3">
+        <form class="d-flex" role="search" >
+          <input [value]="obj.title" #inputRef  (keyup)="KeyUpFun(inputRef.value)" class="form-control me-2" type="search" placeholder="Enter something..." aria-label="Search">
+          <button class="btn btn-primary" type="submit">Submit</button>
+        </form>
+    </div>
+</div>
+<hr>
+
