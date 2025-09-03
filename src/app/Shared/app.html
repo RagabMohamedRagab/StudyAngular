@@ -1,26 +1,6 @@
 <div class="container">
     <NavBar-root></NavBar-root>
-    <Form-root></Form-root>
-  @for(val of share;track val.id;let indx=$index){
-    <Card-app (CustomeEvent)="ClickInParent($event)" [Varible]="val" [index]="indx"></Card-app>
-  }  
-    <hr/>
-  <h1 class="text-center text-primary text-underline">Task ToDo List</h1>
-  <List-app></List-app>
+   
 
-  <hr/>
-  <h1 clas="text-center text-primary text-underline">*Ng For</h1>
-
-</div>
-<div *ngFor="let c of course">
-          <p>{{c.id}}</p>
-           <p>{{c.name}}</p>          
-</div>
-<div>
-  @for(c of course;track c.id){
-         <p>{{c.id}}</p>
-           <p>{{c.name}}</p>
-  }@empty{
-    <div>No</div>
-  }
+    <router-outlet></router-outlet>
 </div>
