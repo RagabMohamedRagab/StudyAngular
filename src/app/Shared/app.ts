@@ -9,9 +9,10 @@ import {Life} from '../LifeCycle/Life'
 import {Nourhan} from '../../NourhanLife/Nourhan'
 import { timer } from 'rxjs';
 
+
 @Component({
   selector: 'ragab-root',
-  imports: [NavBar, RouterOutlet],
+  imports: [NavBar, RouterOutlet,CommonModule],
   templateUrl: './app.html',
   styleUrls:['./app.scss']
 })
@@ -37,7 +38,7 @@ obj1={
     id:123,
     age:12
   };
-   course=[
+   courses=[
       {
         id:1,
         name:'Angular Dev'
