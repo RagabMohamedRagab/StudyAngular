@@ -1,0 +1,8 @@
+@if(AllProducts){
+<div>
+  <h2>{{ AllProducts.title }}</h2>
+  <p>{{ AllProducts.description }}</p>
+  <p>Price: ${{ AllProducts.price }}</p>
+  <img [src]="AllProducts.image" alt="{{ AllProducts.title }}" width="200">
+</div>
+}

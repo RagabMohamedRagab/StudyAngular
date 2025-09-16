@@ -8,11 +8,12 @@ import {List} from '../TODoList/List/List'
 import {Life} from '../LifeCycle/Life'
 import {Nourhan} from '../../NourhanLife/Nourhan'
 import { timer } from 'rxjs';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @Component({
   selector: 'ragab-root',
-  imports: [NavBar, RouterOutlet,CommonModule],
+  imports: [NavBar, RouterOutlet,CommonModule,HttpClientModule],
   templateUrl: './app.html',
   styleUrls:['./app.scss']
 })
