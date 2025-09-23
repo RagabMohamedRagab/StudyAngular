@@ -13,7 +13,7 @@ import { CommonModule } from '@angular/common';
 })
 
 export class Product implements OnInit{
-      http=inject(HttpClient);
+      private http=inject(HttpClient);
       AllProducts?:IProduct
   ngOnInit(): void {
     console.log("start")
