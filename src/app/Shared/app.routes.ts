@@ -7,6 +7,8 @@ import {Coursedetails} from '../Coursedetails/Coursedetails.Component'
 import {Nourhan} from '../../NourhanLife/Nourhan'
 import { Inject } from '../Inject/inject.compoent';
 import { Product } from '../Product/Product.Component';
+import { LoginComponent } from '../FormsData/LoginForm/Login.Component';
+import { RegisterComponent } from '../FormsData/RegsiterForm/Regsiter.Component';
 export const routes: Routes = [
     {
         path:"home",
@@ -37,6 +39,14 @@ export const routes: Routes = [
     {
     path:"Inject",
     component:Inject
+    },
+    {
+      path:"Login",
+      component:LoginComponent
+    },
+    {
+      path:"Register",
+      component:RegisterComponent
     },
     {
       path:"",

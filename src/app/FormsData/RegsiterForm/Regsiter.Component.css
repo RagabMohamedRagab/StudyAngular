@@ -1,0 +1,19 @@
+/* No significant *new* CSS rules are strictly needed beyond what was provided for the login form,
+   as the existing .form-group, input, and button styles will apply.
+   The .register-container can use the same styles as .login-container if you want them to look similar.
+*/
+.register-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Adjust width if needed for more fields */
+    margin-top: 20px; /* Example: if placed below login, add some space */
+     margin: 8% auto;
+}
+.register-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+/* All other .form-group, label, input, button styles from the login form will apply directly */

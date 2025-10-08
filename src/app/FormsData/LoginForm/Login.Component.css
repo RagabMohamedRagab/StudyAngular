@@ -1,0 +1,65 @@
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  .login-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 8% auto;
+  }
+  .login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+  }
+  .form-group input[type="text"],
+  .form-group input[type="password"],
+  .form-group input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensures padding doesn't increase width */
+  }
+  .form-group input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+  }
+  .form-group input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  .forgot-password {
+    text-align: right;
+    margin-top: 10px;
+  }
+  .forgot-password a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 0.9em;
+  }
+  .forgot-password a:hover {
+    text-decoration: underline;
+  }
